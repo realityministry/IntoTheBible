@@ -16,13 +16,13 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-bible-study-site.com',
+  url: 'https://realityministry.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  baseUrl: '/IntoTheBible',
 
   // GitHub pages deployment config (update with your info)
   organizationName: 'REALITY Ministry', // Your GitHub username
-  projectName: 'know-bible', // Your repo name
+  projectName: 'Into the Bible', // Your repo name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
