@@ -115,10 +115,8 @@ graph LR
 
 ## 참고 자료
 
-- [창세기 연구](/docs/old-testament/genesis/1-creation)
-- [이사야서 메시야 예언](/docs/old-testament/prophets/isaiah)
-- [신약 성경의 구조](/docs/new-testament/intro)
+- [성경 공부 가이드](/docs/intro)
 
 :::info 다음 학습
-[예수님의 사역 시작](/docs/gospels/mark/2-jesus-ministry)에서 계속됩니다.
+더 많은 마가복음 내용이 준비 중입니다.
 :::
