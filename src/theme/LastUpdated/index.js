@@ -1,24 +1,36 @@
 import React from 'react';
-import dayjs from 'dayjs';
 
 export default function LastUpdated(props) {
-  // Debug: log all props
-  console.log('LastUpdated props:', props);
+  if (!props.lastUpdatedBy || !props.lastUpdatedAt) return null;
 
-  const { lastUpdatedAt, formattedLastUpdatedAt, lastUpdatedBy } = props;
-  let formattedDate = '';
-  if (lastUpdatedAt) {
-    const ms = lastUpdatedAt > 1000000000000 ? lastUpdatedAt : lastUpdatedAt * 1000;
-    formattedDate = dayjs(ms).format('YYYY-MM-DD');
-  } else if (formattedLastUpdatedAt) {
-    formattedDate = formattedLastUpdatedAt;
+  // Debug: log the value to the browser console
+  console.log('lastUpdatedAt:', props.lastUpdatedAt, typeof props.lastUpdatedAt);
+
+  let dateStr = '';
+  if (typeof props.lastUpdatedAt === 'number') {
+    // Unix timestamp (seconds or milliseconds)
+    if (props.lastUpdatedAt > 1000000000000) {
+      // Milliseconds
+      dateStr = new Date(props.lastUpdatedAt).toISOString().slice(0, 10);
+    } else {
+      // Seconds
+      dateStr = new Date(props.lastUpdatedAt * 1000).toISOString().slice(0, 10);
+    }
+  } else if (typeof props.lastUpdatedAt === 'string') {
+    // Try to parse as date string
+    const d = new Date(props.lastUpdatedAt);
+    if (!isNaN(d)) {
+      dateStr = d.toISOString().slice(0, 10);
+    } else {
+      dateStr = props.lastUpdatedAt;
+    }
+  } else {
+    dateStr = String(props.lastUpdatedAt);
   }
 
   return (
     <span>
-      Last updated
-      {lastUpdatedBy && <> by {lastUpdatedBy}</>}
-      {formattedDate && <> on {formattedDate}</>}
+      Last updated by {props.lastUpdatedBy} on {dateStr}
     </span>
   );
 }
