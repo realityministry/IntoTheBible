@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/gospels/intro">
+            to="/docs/gospels/preface">
             복음서 공부 시작하기
           </Link>
         </div>
