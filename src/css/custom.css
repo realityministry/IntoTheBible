@@ -196,10 +196,230 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Navbar styling - match the hero banner color */
+.navbar {
+  background-color: var(--ifm-color-primary) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__brand {
+  color: white !important;
+}
+
+.navbar__title {
+  color: white !important;
+}
+
+.navbar__item {
+  color: white !important;
+}
+
+.navbar__item:hover {
+  color: #FFDBB2 !important;
+}
+
+.navbar__link {
+  color: white !important;
+}
+
+.navbar__link:hover {
+  color: #FFDBB2 !important;
+}
+
+/* Active/selected menu item styling */
+.navbar__link--active {
+  color: #FFDBB2 !important;
+}
+
+.navbar__item--active {
+  color: #FFDBB2 !important;
+}
+
+.navbar__toggle {
+  color: white !important;
+}
+
+/* Dropdown menu styling */
+.navbar-sidebar {
+  background-color: var(--ifm-color-primary) !important;
+}
+
+.navbar-sidebar__brand {
+  color: white !important;
+}
+
+.navbar-sidebar__item {
+  color: white !important;
+}
+
+.navbar-sidebar__item:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Locale dropdown styling */
+.navbar__item--locale {
+  color: white !important;
+}
+
+.navbar__item--locale:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Mobile-specific navbar styling */
+@media (max-width: 996px) {
+  .navbar {
+    background-color: var(--ifm-color-primary) !important;
+  }
+  
+  .navbar__brand {
+    color: white !important;
+  }
+  
+  .navbar__title {
+    color: white !important;
+  }
+  
+  .navbar__toggle {
+    color: white !important;
+  }
+  
+  /* Mobile sidebar styling */
+  .navbar-sidebar {
+    background-color: var(--ifm-color-primary) !important;
+  }
+  
+  .navbar-sidebar__brand {
+    color: white !important;
+  }
+  
+  .navbar-sidebar__item {
+    color: white !important;
+  }
+  
+  .navbar-sidebar__item:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  /* Mobile sidebar links */
+  .navbar-sidebar__link {
+    color: white !important;
+  }
+  
+  .navbar-sidebar__link:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  .navbar-sidebar__link--active {
+    color: #FFDBB2 !important;
+  }
+  
+  /* Mobile locale dropdown */
+.navbar-sidebar__item--locale {
+  color: white !important;
+}
+
+.navbar-sidebar__item--locale:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Force white text for all mobile sidebar menu items */
+@media (max-width: 996px) {
+  .navbar-sidebar__item,
+  .navbar-sidebar__link,
+  .navbar-sidebar__link--active,
+  .navbar-sidebar__item--active {
+    color: white !important;
+    opacity: 1 !important;
+  }
+  .navbar-sidebar__item:hover,
+  .navbar-sidebar__link:hover {
+    color: #FFDBB2 !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Document sidebar styling for consistency */
+.theme-doc-sidebar-menu {
+  background-color: var(--ifm-background-color) !important;
+}
+
+.theme-doc-sidebar-item-category-level-1 {
+  color: var(--ifm-color-primary) !important;
+}
+
+.theme-doc-sidebar-item-link-level-1 {
+  color: var(--ifm-color-primary) !important;
+}
+
+.theme-doc-sidebar-item-link-level-1:hover {
+  color: var(--ifm-color-primary-dark) !important;
+}
+
+.theme-doc-sidebar-item-link-level-1--active {
+  color: #FFDBB2 !important;
+  background-color: rgba(255, 219, 178, 0.1) !important;
+}
+}
+
 /* Print styles */
 @media print {
   .admonition {
     border: 1px solid #333 !important;
     background: #f8f9fa !important;
+  }
+}
+
+/* --- MOBILE SIDEBAR COLOR FIX --- */
+@media (max-width: 996px) {
+  /* Force all sidebar menu links and items to be white and fully opaque */
+  .navbar-sidebar__items,
+  .navbar-sidebar__item,
+  .menu,
+  .menu__list,
+  .menu__list-item,
+  .menu__link {
+    color: white !important;
+    background: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+    transition: none !important;
+  }
+  /* Highlight on hover/active */
+  .menu__link:hover,
+  .menu__link--active {
+    color: #FFDBB2 !important;
+    opacity: 1 !important;
+    filter: none !important;
+  }
+  /* Remove any dimming from parent containers */
+  .navbar-sidebar__items {
+    opacity: 1 !important;
+    filter: none !important;
+  }
+  /* Remove any overlay or dimming effect on the sidebar panel or backdrop */
+  .navbar-sidebar__backdrop,
+  .navbar-sidebar__items,
+  .navbar-sidebar__item,
+  .menu,
+  .menu__list,
+  .menu__list-item,
+  .menu__link {
+    background: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+    transition: none !important;
+  }
+  /* Remove any hover/focus background on the sidebar container */
+  .navbar-sidebar__items:hover,
+  .navbar-sidebar__items:focus,
+  .navbar-sidebar__item:hover,
+  .navbar-sidebar__item:focus,
+  .menu__list-item:hover,
+  .menu__list-item:focus {
+    background: none !important;
+    opacity: 1 !important;
+    filter: none !important;
   }
 }

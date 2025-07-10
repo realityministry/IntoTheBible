@@ -3,28 +3,40 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   // Main tutorial sidebar - referenced in docusaurus.config.js
-  tutorialSidebar: [
+  gospelsSidebar: [
+    // {
+    //   type: 'html',
+    //   value: '<div class="sidebar-category-title">📖 성경 공부</div>',
+    //   className: 'sidebar-category-header',
+    // },
     {
       type: 'doc',
-      id: 'intro',
-      label: '시작하기',
+      id: 'gospels/preface',
+      label: '머리말',
     },
     
     // 복음서 섹션
     {
       type: 'category',
-      label: '복음서',
+      label: 'A. 복음서 소개',
       collapsible: true,
       collapsed: false,
       items: [
         {
-          type: 'category',
-          label: '마가복음',
-          collapsible: true,
-          collapsed: false,
-          items: [
-            'gospels/mark/gospel-beginning',
-          ],
+          type: 'doc',
+          id: 'gospels/A/matthew',
+        },
+        {
+          type: 'doc',
+          id: 'gospels/A/mark',
+        },
+        {
+          type: 'doc',
+          id: 'gospels/A/luke',
+        },
+        {
+          type: 'doc',
+          id: 'gospels/A/john',
         },
       ],
     },

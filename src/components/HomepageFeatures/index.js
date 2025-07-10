@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '체계적인 성경 공부',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        복음서부터 시작하여 성경 전체를 체계적으로 공부할 수 있습니다.
+        단계별 가이드를 통해 깊이 있는 성경 이해를 도와줍니다.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '다국어 지원',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        한국어와 영어로 제공되어 더 많은 사람들이 접근할 수 있습니다.
+        각 언어별로 최적화된 콘텐츠를 제공합니다.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '실용적인 적용',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        성경의 가르침을 일상생활에 적용할 수 있도록 실용적인 
+        예시와 적용점을 함께 제공합니다.
       </>
     ),
   },

@@ -24,7 +24,7 @@ const config = {
   organizationName: 'REALITY Ministry', // Your GitHub username
   projectName: 'Into the Bible', // Your repo name
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Internationalization config for Korean/English
@@ -53,7 +53,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // Edit URL for your repository
-          editUrl: 'https://github.com/your-username/bible-study/tree/main/',
+          editUrl: 'https://github.com/realityministry/IntoTheBible/tree/main/',
           // Show last update info
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
@@ -65,7 +65,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/your-username/bible-study/tree/main/',
+          editUrl: 'https://github.com/realityministry/IntoTheBible/tree/main/',
           // Blog best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -90,6 +90,21 @@ const config = {
         disableInDev: false,
       },
     ],
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        // Local search configuration
+        hashed: true,
+        language: ['en', 'ko'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchBarPosition: 'right',
+        docsRouteBasePath: ['docs'],
+        blogRouteBasePath: ['blog'],
+        docsDir: ['docs'],
+        blogDir: ['blog'],
+      },
+    ],
   ],
 
   themes: ['@docusaurus/theme-mermaid'],
@@ -99,34 +114,23 @@ const config = {
     ({
       // Social card image
       image: 'img/bible-study-social-card.jpg',
-      
-      // Search configuration
-      algolia: {
-        // You'll need to set this up with Algolia for search
-        appId: 'YOUR_APP_ID',
-        apiKey: 'YOUR_SEARCH_API_KEY',
-        indexName: 'bible-study',
-        contextualSearch: true,
-        searchPagePath: 'search',
-      },
 
       navbar: {
         title: 'Into the Bible',
         logo: {
-          alt: 'Bible Study Logo',
+          alt: 'Into the Bible Logo',
           src: 'img/logo.svg',
-          srcDark: 'img/logo.svg', // Optional dark mode logo
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'gospelsSidebar',
             position: 'left',
-            label: '성경 공부',
+            label: '복음서',
           },
           {
             to: '/blog', 
-            label: '블로그', 
+            label: 'Blog', 
             position: 'left'
           },
           {
@@ -134,7 +138,7 @@ const config = {
             position: 'right',
           },
           // {
-          //   href: 'https://github.com/your-username/bible-study',
+          //   href: 'https://github.com/realityministry/IntoTheBible',
           //   label: 'GitHub',
           //   position: 'right',
           // },
@@ -193,7 +197,6 @@ const config = {
 
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
         // Add additional languages if needed
         additionalLanguages: ['bash', 'json'],
       },
@@ -204,11 +207,11 @@ const config = {
         maxHeadingLevel: 4,
       },
 
-      // Color mode configuration
+      // Color mode configuration - Disable dark mode
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
 
       // Announcement bar (optional)
