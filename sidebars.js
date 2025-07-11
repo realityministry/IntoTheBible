@@ -41,6 +41,32 @@ const sidebars = {
       ],
     },
 
+    {
+      type: 'category',
+      label: 'B. 복음서의 서론',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'gospels/B/matthew',
+        },
+        {
+          type: 'doc',
+          id: 'gospels/B/mark',
+        },
+        {
+          type: 'doc',
+          id: 'gospels/B/luke',
+        },
+        {
+          type: 'doc',
+          id: 'gospels/B/john',
+        },
+      ],
+    },
+
+
     // Tutorial basics section
     {
       type: 'category',

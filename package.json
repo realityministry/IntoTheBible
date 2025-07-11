@@ -22,10 +22,12 @@
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "dayjs": "^1.11.13",
+    "katex": "^0.16.22",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "remark-admonitions": "^1.2.1"
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",

@@ -57,7 +57,11 @@ const config = {
           // Show last update info
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
-
+          // Add KaTeX support for math rendering
+          remarkPlugins: [
+            require('remark-math'),
+          ],
+          rehypePlugins: [require('rehype-katex')],
         },
         blog: {
           showReadingTime: true,
@@ -65,7 +69,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/realityministry/IntoTheBible/tree/main/',
+          // editUrl: 'https://github.com/realityministry/IntoTheBible/tree/main/',
           // Blog best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
