@@ -77,8 +77,6 @@ h1 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-
 .admonition-heading {
   font-weight: 600;
   font-size: 1.1rem;
@@ -114,6 +112,7 @@ h1 {
   font-weight: 700 !important;
   color: var(--ifm-color-primary) !important;
   text-transform: none !important;
+  margin-bottom: 0.5rem !important;
 }
 
 *[class*="admonition-info"] svg,
@@ -149,6 +148,7 @@ h1 {
   font-weight: 700 !important;
   color: var(--ifm-color-primary) !important;
   text-transform: none !important;
+  margin-bottom: 0.5rem !important;
 }
 
 *[class*="admonition-tip"] svg,
