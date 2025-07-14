@@ -9,4 +9,4 @@
 * [요한복음 소개](/docs/gospels/A/the-gospel-of-john-introduction)
 
 #### B. 복음서 서론
-* [복음의 시작](/docs/gospels/B/the-beginning-of-the-gospel)
+* [복음의 시작 (막 1:1)](/docs/gospels/B/the-beginning-of-the-gospel)

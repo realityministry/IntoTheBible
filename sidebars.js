@@ -19,6 +19,12 @@ const sidebars = {
       id: 'gospels/toc',
       label: '목차',
     },
+    {
+      type: 'doc',
+      id: 'gospels/bible-reading-plan',
+      label: '성경읽기표',
+    },
+
 
     {
       type: 'category',

@@ -1,7 +1,7 @@
 ---
 title: "세상의 빛인 예수 (Jesus: The Light of the World)"
 description: "요한복음에서 예수님을 세상의 빛으로 묘사한 내용에 대한 설명"
-sidebar_label: "예수: 세상의 빛"
+sidebar_label: "세상의 빛인 예수"
 tags: []
 ---
 # 세상의 빛인 예수
