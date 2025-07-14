@@ -2,7 +2,7 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  // Main tutorial sidebar - referenced in docusaurus.config.js
+  // Referenced in docusaurus.config.js
   gospelsSidebar: [
     // {
     //   type: 'html',
@@ -14,8 +14,12 @@ const sidebars = {
       id: 'gospels/preface',
       label: '머리말',
     },
-    
-    // 복음서 섹션
+    {
+      type: 'doc',
+      id: 'gospels/toc',
+      label: '목차',
+    },
+
     {
       type: 'category',
       label: 'A. 복음서 소개',
@@ -24,76 +28,48 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'gospels/A/matthew',
+          id: 'gospels/A/the-gospel-of-matthew-introduction',
         },
         {
           type: 'doc',
-          id: 'gospels/A/mark',
+          id: 'gospels/A/the-gospel-of-mark-introduction',
         },
         {
           type: 'doc',
-          id: 'gospels/A/luke',
+          id: 'gospels/A/the-gospel-of-luke-introduction',
         },
         {
           type: 'doc',
-          id: 'gospels/A/john',
+          id: 'gospels/A/the-gospel-of-john-introduction',
         },
       ],
     },
 
     {
       type: 'category',
-      label: 'B. 복음서의 서론',
+      label: 'B. 복음서 서론',
       collapsible: true,
       collapsed: false,
       items: [
         {
           type: 'doc',
-          id: 'gospels/B/matthew',
+          id: 'gospels/B/the-beginning-of-the-gospel',
         },
         {
           type: 'doc',
-          id: 'gospels/B/mark',
+          id: 'gospels/B/the-genealogy-of-jesus-christ',
         },
         {
           type: 'doc',
-          id: 'gospels/B/luke',
+          id: 'gospels/B/jesus-the-light-of-the-world',
         },
         {
           type: 'doc',
-          id: 'gospels/B/john',
+          id: 'gospels/B/the-testimony-of-the-gospel',
         },
       ],
     },
 
-
-    // Tutorial basics section
-    {
-      type: 'category',
-      label: '튜토리얼',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'tutorial-basics/congratulations',
-        'tutorial-basics/create-a-blog-post',
-        'tutorial-basics/create-a-document',
-        'tutorial-basics/create-a-page',
-        'tutorial-basics/deploy-your-site',
-        'tutorial-basics/markdown-features',
-      ],
-    },
-
-    // Tutorial extras section
-    {
-      type: 'category',
-      label: '고급 기능',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'tutorial-extras/manage-docs-versions',
-        'tutorial-extras/translate-your-site',
-      ],
-    },
   ],
 };
 
