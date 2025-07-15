@@ -21,7 +21,7 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'gospels/bible-reading-plan',
+      id: 'gospels/bible-reading-chart',
       label: '성경읽기표',
     },
 
