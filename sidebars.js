@@ -76,6 +76,31 @@ const sidebars = {
       ],
     },
 
+    {
+      type: 'category',
+      label: 'C. 구원의 서막',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'gospels/C/the-annunciation-of-john-the-baptists-birth',
+        },
+        {
+          type: 'doc',
+          id: 'gospels/C/the-annunciation-of-jesus-christs-birth',
+        },
+        {
+          type: 'doc',
+          id: 'gospels/C/the-meeting-of-mary-and-elizabeth',
+        },
+        {
+          type: 'doc',
+          id: 'gospels/C/the-birth-of-john-the-baptist',
+        },
+      ],
+    },
+
   ],
 };
 

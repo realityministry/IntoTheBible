@@ -34,10 +34,26 @@ const CHAPTER_GROUPS = [
     key: 'B',
     label: 'B. 복음서 서론',
     highlights: {
-      matthew: [{ chapter: 1, start: 1, end: 17 }],
-      mark:    [{ chapter: 1, start: 1, end: 1 }],
-      luke:    [{ chapter: 1, start: 1, end: 4 }],
-      john:    [{ chapter: 1, start: 1, end: 18 }],
+      matthew: [{ chapter: 1, start: 1, end: 17 }],   // 예수 그리스도의 계보
+      mark:    [{ chapter: 1, start: 1, end: 1 }],    // 복음의 시작
+      luke:    [{ chapter: 1, start: 1, end: 4 }],    // 누가복음 서문
+      john:    [
+        { chapter: 1, start: 1, end: 5 },             // 태초의 말씀
+        { chapter: 1, start: 9, end: 14 },            // 참 빛이신 말씀
+        { chapter: 1, start: 16, end: 18 },           // 말씀이 육신이 되심
+      ],
+    },
+  },
+  {
+    key: 'C',
+    label: 'C. 탄생 이야기',
+    highlights: {
+      luke: [
+        { chapter: 1, start: 5, end: 25 },   // 세례 요한의 탄생 예고
+        { chapter: 1, start: 26, end: 38 },  // 예수 그리스도의 탄생 예고
+        { chapter: 1, start: 39, end: 56 },  // 마리아와 엘리사벳의 만남
+        { chapter: 1, start: 57, end: 80 },  // 세례 요한의 탄생
+      ],
     },
   },
 ];
@@ -61,10 +77,18 @@ function getHighlightMap(selectedGroups) {
   return map;
 }
 
+function getVerseHighlightClass(gospelKey, chapterIndex, verseIndex, selectedGroups) {
+  const highlightMap = getHighlightMap(selectedGroups);
+  if (highlightMap[gospelKey] && 
+      highlightMap[gospelKey][chapterIndex] && 
+      highlightMap[gospelKey][chapterIndex].has(verseIndex)) {
+    return styles.highlighted;
+  }
+  return '';
+}
+
 export default function BibleStudyChart() {
   const [selectedGroups, setSelectedGroups] = useState({ B: false });
-
-  const highlightMap = getHighlightMap(selectedGroups);
 
   const handleCheckbox = (key) => {
     setSelectedGroups((prev) => ({ ...prev, [key]: !prev[key] }));
@@ -88,31 +112,43 @@ export default function BibleStudyChart() {
         {GOSPELS.map((gospel) => (
           <div key={gospel.key} className={styles.gospelTableWrapper}>
             <div className={styles.gospelTitle}>{gospel.name}</div>
-            <table className={styles.gospelTable}>
-              <tbody>
-                {gospel.chapters.map((verseCount, chapterIdx) => (
-                  <tr key={chapterIdx}>
-                    <td className={styles.chapterCell}>{chapterIdx + 1}</td>
-                    {Array.from({ length: verseCount }, (_, vIdx) => {
-                      const isHighlighted =
-                        highlightMap[gospel.key] &&
-                        highlightMap[gospel.key][chapterIdx] &&
-                        highlightMap[gospel.key][chapterIdx].has(vIdx);
-                      return (
-                        <td
-                          key={vIdx}
-                          className={
-                            styles.verseCell + (isHighlighted ? ' ' + styles.highlight : '')
-                          }
+            <div className={styles.chaptersContainer}>
+              {gospel.chapters.map((verseCount, chapterIndex) => {
+                // Check if any groups are selected
+                const hasSelectedGroups = Object.values(selectedGroups).some(Boolean);
+                
+                // If groups are selected, check if this chapter should be shown
+                if (hasSelectedGroups) {
+                  const highlightMap = getHighlightMap(selectedGroups);
+                  const shouldShowChapter = highlightMap[gospel.key] && highlightMap[gospel.key][chapterIndex];
+                  
+                  if (!shouldShowChapter) {
+                    return null; // Don't render this chapter
+                  }
+                }
+                
+                const verses = [];
+                for (let v = 1; v <= verseCount; v++) {
+                  verses.push(v);
+                }
+                
+                return (
+                  <div key={chapterIndex} className={styles.chapterSection}>
+                    <div className={styles.chapterTitle}>Chapter {chapterIndex + 1}</div>
+                    <div className={styles.verseContainer}>
+                      {verses.map((verse) => (
+                        <span 
+                          key={verse} 
+                          className={`${styles.verse} ${getVerseHighlightClass(gospel.key, chapterIndex, verse - 1, selectedGroups)}`}
                         >
-                          {vIdx + 1}
-                        </td>
-                      );
-                    })}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+                          {verse}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         ))}
       </div>

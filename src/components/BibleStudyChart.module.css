@@ -346,3 +346,59 @@
   box-shadow: 0 0 0 2px #fff7d633;
   z-index: 2;
 } 
+
+.bookSection {
+  margin-bottom: 2rem;
+}
+
+.bookTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.chaptersContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.chapterSection {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: var(--ifm-background-color);
+}
+
+.chapterTitle {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-primary);
+  font-size: 1.1rem;
+}
+
+.verseContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-bottom: 0.3rem;
+}
+
+.verse {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--ifm-color-emphasis-200);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  min-width: 2rem;
+  text-align: center;
+  margin-right: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.verse.highlighted {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-weight: bold;
+} 
