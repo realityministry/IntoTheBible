@@ -1,0 +1,52 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 150px;
+  /* width: 200px; */
+}
+
+.featureRow {
+  gap: 1rem 0rem; /* 3rem vertical gap, 1rem horizontal gap */
+}
+
+.featureCard {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 0.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+}
+
+/* Mission Statement Styles */
+.mission {
+  padding: 2.5rem 0;
+  background: white;
+}
+
+.missionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.missionText {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 100%;
+  margin: 0 auto;
+}

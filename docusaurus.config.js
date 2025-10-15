@@ -6,9 +6,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Into the Bible',
-  tagline: 'Holistic Understanding of God\'s Word',
-  favicon: 'img/favicon.ico',
+  title: 'REALITY Ministry',
+  tagline: 'REnew All LIving Things in Yeshua',
+  favicon: 'img/favicon-little_seed.ico',
 
   // Future flags for better compatibility
   future: {
@@ -16,31 +16,31 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://realityministry.github.io',
+  url: 'https://realityministry.org',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/IntoTheBible',
+  baseUrl: '/',
 
   // GitHub pages deployment config (update with your info)
-  organizationName: 'REALITY Ministry', // Your GitHub username
-  projectName: 'Into the Bible', // Your repo name
+  organizationName: 'realityministry', // Your GitHub username
+  projectName: 'realityministry.github.io', // Your repo name
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Internationalization config for Korean/English
   i18n: {
-    defaultLocale: 'ko',
-    locales: ['ko', 'en'],
+    defaultLocale: 'en',
+    locales: ['en', 'ko'],
     localeConfigs: {
-      ko: {
-        label: '한국어',
-        direction: 'ltr',
-        htmlLang: 'ko-KR',
-      },
       en: {
         label: 'English',
         direction: 'ltr',
         htmlLang: 'en-US',
+      },
+      ko: {
+        label: '한국어',
+        direction: 'ltr',
+        htmlLang: 'ko-KR',
       },
     },
   },
@@ -53,7 +53,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // Edit URL for your repository
-          editUrl: 'https://github.com/realityministry/IntoTheBible/tree/main/',
+          editUrl: 'https://github.com/realityministry/realityministry.github.io/tree/main/',
           // Show last update info
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
@@ -69,7 +69,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // editUrl: 'https://github.com/realityministry/IntoTheBible/tree/main/',
+          // editUrl: 'https://github.com/realityministry/realityministry.github.io/tree/main/',
           // Blog best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -120,29 +120,94 @@ const config = {
       image: 'img/bible-study-social-card.jpg',
 
       navbar: {
-        title: 'Into the Bible',
+        title: '',
         logo: {
-          alt: 'Into the Bible Logo',
-          src: 'img/logo.svg',
+          alt: 'REALITY Ministry',
+          src: 'img/logo-reality.png',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'gospelsSidebar',
+            type: 'dropdown',
+            label: 'Ministry',
             position: 'left',
-            label: '복음서',
+            items: [
+              {
+                to: '/ministry/evangelism',
+                label: 'Evangelism',
+              },
+              {
+                to: '/ministry/missionary',
+                label: 'Missionary',
+              },
+            ],
           },
           {
-            to: '/blog', 
-            label: 'Blog', 
-            position: 'left'
+            type: 'dropdown',
+            label: 'Arts & Media',
+            position: 'left',
+            items: [
+              {
+                to: '/arts-media/books',
+                label: 'Books',
+              },
+              {
+                to: '/arts-media/musicals',
+                label: 'Musicals',
+              },
+              {
+                to: '/arts-media/songs',
+                label: 'Songs',
+              },
+            ],
           },
           {
-            type: 'localeDropdown',
-            position: 'right',
+            type: 'dropdown',
+            label: 'Technology', 
+            position: 'left',
+            items: [
+              {
+                to: '/technology/ai-initiative',
+                label: 'AI Initiative',
+              },
+            ],
+          },
+          {
+            to: '/programs', 
+            label: 'Programs', 
+            position: 'left',
           },
           // {
-          //   href: 'https://github.com/realityministry/IntoTheBible',
+          //   type: 'docSidebar',
+          //   sidebarId: 'gospelsSidebar',
+          //   position: 'left',
+          //   label: '복음서',
+          // },
+          // {
+          //   to: '/blog', 
+          //   label: 'Blog', 
+          //   position: 'left'
+          // },
+          {
+            type: 'dropdown',
+            label: 'About',
+            position: 'right',
+            items: [
+              {
+                to: '/about/team',
+                label: 'Team',
+              },
+              {
+                to: '/about/contact',
+                label: 'Contact',
+              },
+            ],
+          },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
+          // {
+          //   href: 'https://github.com/realityministry/realityministry.github.io',
           //   label: 'GitHub',
           //   position: 'right',
           // },
@@ -196,7 +261,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} REALITY Ministry. All rights reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} REALITY Ministry Inc. All rights reserved.`,
       },
 
       prism: {
