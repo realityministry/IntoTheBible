@@ -2,13 +2,29 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  // Referenced in docusaurus.config.js
+  // Evangelism Sidebar
+  evangelismSidebar: [
+    {
+      type: 'doc',
+      id: 'evangelism/street-evangelism',
+      label: 'Street Evangelism',
+    },
+    {
+      type: 'category',
+      label: 'Past Events',
+      collapsible: true,
+      items: [
+        {
+          type: 'doc',
+          id: 'evangelism/2025-10-04',
+          label: '2025-10-04',
+        },
+      ],
+    },
+  ],
+
+  // Gospels Sidebar
   gospelsSidebar: [
-    // {
-    //   type: 'html',
-    //   value: '<div class="sidebar-category-title">📖 성경 공부</div>',
-    //   className: 'sidebar-category-header',
-    // },
     {
       type: 'doc',
       id: 'gospels/preface',
@@ -24,8 +40,6 @@ const sidebars = {
       id: 'gospels/bible-reading-chart',
       label: '성경읽기표',
     },
-
-
     {
       type: 'category',
       label: 'A. 복음서 소개',
@@ -50,7 +64,6 @@ const sidebars = {
         },
       ],
     },
-
     {
       type: 'category',
       label: 'B. 복음서 서론',
@@ -75,7 +88,6 @@ const sidebars = {
         },
       ],
     },
-
     {
       type: 'category',
       label: 'C. 구원의 서막',
@@ -100,7 +112,6 @@ const sidebars = {
         },
       ],
     },
-
   ],
 };
 

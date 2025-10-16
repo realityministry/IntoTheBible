@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/gospels/preface">
-            Participate in Street Preaching
+            to="/ministry/gospels/preface">
+            Street Evangelism
           </Link>
         </div>
       </div>
@@ -49,11 +49,9 @@ function Verse() {
   return (
     <section className="container my-5">
       <hr className="mb-4" style={{borderColor: '#2e5266', borderWidth: '2px'}} />
-      <div className="text--center">
-        <p style={{fontStyle: 'italic'}}>
-          He who was seated on the throne said, "I am making everything new!" Then he said, "Write this down, for these words are trustworthy and true." - Revelation 21:5
-        </p>
-      </div>
+      <p style={{fontStyle: 'italic'}}>
+        He who was seated on the throne said, "I am making everything new!" Then he said, "Write this down, for these words are trustworthy and true." - Revelation 21:5
+      </p>
     </section>
   );
 }
@@ -64,7 +62,7 @@ const FeatureList = [
     Svg: require('@site/static/img/icon-church.svg').default,
     description: (
       <>
-        Advancing the Christian faith through evangelism, ministry, education, and outreach programs designed to share the Gospel and deepen devotion to Christ and God's truth.
+        Advancing the Christian faith through evangelism, ministry, education, and outreach designed to share the Gospel and deepen devotion to Christ and God's truth.
       </>
     ),
   },
@@ -73,7 +71,7 @@ const FeatureList = [
     Svg: require('@site/static/img/icon-books.svg').default,
     description: (
       <>
-        Distributing creative devotional materials (e.g., books, music, media content, performances) that nurture spiritual growth and Christian discipleship through the Holy Spirit.
+        Distributing creative devotional materials (e.g., books, music, media, performances) that nurture spiritual growth and Christian discipleship through the Holy Spirit.
       </>
     ),
   },
@@ -82,7 +80,7 @@ const FeatureList = [
     Svg: require('@site/static/img/icon-rocket.svg').default,
     description: (
       <>
-        Conducting innovative research in Artificial Intelligence and developing relevant technologies that reflect Christian principles rooted in the Bible and support spiritual formation.
+        Conducting innovative research in Artificial Intelligence and developing relevant technologies that reflect Christian principles and support spiritual formation.
       </>
     ),
   },

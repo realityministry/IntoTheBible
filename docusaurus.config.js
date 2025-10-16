@@ -45,13 +45,21 @@ const config = {
     },
   },
 
+  stylesheets: [
+    {
+      href: '/src/css/custom.css',
+      type: 'text/css',
+    },
+  ],
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          routeBasePath: '/', // Serve the docs at the site's root
+          sidebarPath: require.resolve('./sidebars.js'),
           // Edit URL for your repository
           editUrl: 'https://github.com/realityministry/realityministry.github.io/tree/main/',
           // Show last update info
@@ -131,15 +139,16 @@ const config = {
             label: 'Ministry',
             position: 'left',
             items: [
-              {
-                to: '/ministry/evangelism',
-                label: 'Evangelism',
-              },
-              {
-                to: '/ministry/missionary',
-                label: 'Missionary',
-              },
-            ],
+            {
+              type: 'docSidebar',
+              sidebarId: 'evangelismSidebar',
+              label: 'Evangelism',
+            },
+            {
+              to: '/ministry/missionary',
+              label: 'Missionary',
+            },
+          ],
           },
           {
             type: 'dropdown',
@@ -194,11 +203,11 @@ const config = {
             items: [
               {
                 to: '/about/team',
-                label: 'Team',
+                label: 'Our Team',
               },
               {
                 to: '/about/contact',
-                label: 'Contact',
+                label: 'Contact Us',
               },
             ],
           },

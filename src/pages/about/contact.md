@@ -2,7 +2,6 @@
 title: Contact Us
 parent: About
 permalink: /about/contact
-nav_order: 2
 description: Get in touch with REALITY Ministry
 ---
 

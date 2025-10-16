@@ -1,13 +1,12 @@
 ---
-title: Team
+title: Our Team
 parent: About
 permalink: /about/team
-nav_order: 1
-description: Meet the team of REALITY Ministry
+description: Meet the REALITY Ministry team
 # hide_table_of_contents: true
 ---
 
-# Team
+# Our Team
 
 REALITY Ministry is led by individuals called to bridge faith and innovation in service to the next generation in Jesus Christ.
 
@@ -19,7 +18,7 @@ REALITY Ministry is led by individuals called to bridge faith and innovation in 
 <div className="team-member">
 <img src="/img/people/jinho_choi.jpg" alt="Jinho D. Choi" />
 
-[**Dr. Jinho D. Choi**](https://www.emorynlp.org/faculty/jinho-choi) is a professor of Computer Science at Emory University and a leading researcher in Conversational AI and Natural Language Processing, specializing in conversational agent systems and their applications for mental health and education. Recognizing the urgent need for AI technologies aligned with biblical principles, he founded REALITY Ministry to equip the next generation with AI tools for spiritual growth and Christian education. He is also an ordained deacon at Korean Community Presbyterian Church of Atlanta, where he has served in worship leadership, teaching, and community ministry.
+[**Dr. Jinho D. Choi**](https://www.emorynlp.org/faculty/jinho-choi) is a professor of Computer Science at Emory University and a leading researcher in Conversational AI and Natural Language Processing, innovating AI models and their applications for mental health and education. Recognizing the urgent need for AI technologies aligned with biblical principles, he founded REALITY Ministry to equip the next generation with AI tools for spiritual growth and Christian education. He is also an ordained deacon at Korean Community Presbyterian Church of Atlanta, where he has served in worship leadership, teaching, and community ministry.
 
 </div>
 
@@ -31,7 +30,7 @@ REALITY Ministry is led by individuals called to bridge faith and innovation in 
 <div className="team-member">
 <img src="/img/people/jooyoung_choi.jpg" alt="Jooyoung H. Choi" />
 
-**Jooyoung H. Choi**'s journey from scientist to educational leader reflects a calling to serve the next generation. After serving as a faculty member in Chemistry at the University of North Georgia, the COVID pandemic revealed to her the critical need for transformed educational approaches. She is currently pursuing an EdD in Educational Leadership at Georgia State University. As an ordained deacon at Korean Community Presbyterian Church of Atlanta, she serves her community with faithful prayer and ministry, bringing both academic rigor and spiritual depth to REALITY Ministry's mission.
+**Jooyoung H. Choi**'s journey from a scientist to a educator reflects a calling to serve the next generation. After serving as a faculty member in Chemistry at the University of North Georgia, the COVID pandemic revealed to her the critical need for transformed educational approaches. She is currently pursuing an EdD in Educational Leadership at Georgia State University. As an ordained deacon at Korean Community Presbyterian Church of Atlanta, she serves her community with faithful prayer and ministry, bringing both academic rigor and spiritual depth to REALITY Ministry's mission.
 
 </div>
 ---
@@ -54,4 +53,4 @@ We are always looking for passionate individuals who want to contribute to help 
 
 ---
 
-*"For where two or three gather in my name, there am I with them." - Matthew 18:20*
+*For where two or three gather in my name, there am I with them. - Matthew 18:20*
