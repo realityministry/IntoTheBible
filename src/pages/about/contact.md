@@ -32,7 +32,7 @@ We'd love to hear from you! Whether you're interested in partnering with us, vol
 
 We welcome inquiries about:
 
-- **Partnership Opportunities** - Collaborate with us in ministry, technology, or creative projects
+- **Partnership Opportunities** - Collaborate with us in ministry, education, technology, or other projects
 - **Volunteer Opportunities** - Contribute your skills and passion to our mission
 - **General Questions** - Learn more about REALITY Ministry and our work
 - **Speaking & Events** - Invite our team to share at your church or organization

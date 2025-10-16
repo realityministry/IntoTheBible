@@ -136,39 +136,59 @@ const config = {
         items: [
           {
             type: 'dropdown',
+            label: 'About',
+            position: 'left',
+            items: [
+              {
+                to: '/about/team',
+                label: 'Our Team',
+              },
+              {
+                to: '/about/contact',
+                label: 'Contact Us',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
             label: 'Ministry',
             position: 'left',
             items: [
             {
               type: 'docSidebar',
               sidebarId: 'evangelismSidebar',
-              label: 'Evangelism',
+              label: 'Street Outreach',
             },
             {
-              to: '/ministry/missionary',
-              label: 'Missionary',
+              to: '/ministry/mission-trips',
+              label: 'Mission Trips',
             },
           ],
           },
           {
-            type: 'dropdown',
-            label: 'Arts & Media',
-            position: 'left',
-            items: [
-              {
-                to: '/arts-media/books',
-                label: 'Books',
-              },
-              {
-                to: '/arts-media/musicals',
-                label: 'Musicals',
-              },
-              {
-                to: '/arts-media/songs',
-                label: 'Songs',
-              },
-            ],
-          },
+              href: 'http://cotlministry.com',
+              label: 'Devotionals',
+              position: 'left',
+            },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Arts & Media',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       to: '/arts-media/books',
+          //       label: 'Books',
+          //     },
+          //     {
+          //       to: '/arts-media/musicals',
+          //       label: 'Musicals',
+          //     },
+          //     {
+          //       to: '/arts-media/songs',
+          //       label: 'Songs',
+          //     },
+          //   ],
+          // },
           {
             type: 'dropdown',
             label: 'Technology', 
@@ -196,21 +216,6 @@ const config = {
           //   label: 'Blog', 
           //   position: 'left'
           // },
-          {
-            type: 'dropdown',
-            label: 'About',
-            position: 'right',
-            items: [
-              {
-                to: '/about/team',
-                label: 'Our Team',
-              },
-              {
-                to: '/about/contact',
-                label: 'Contact Us',
-              },
-            ],
-          },
           // {
           //   type: 'localeDropdown',
           //   position: 'right',

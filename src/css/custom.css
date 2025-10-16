@@ -69,7 +69,32 @@ h3 {
 .hero--primary .hero__title {
   color: #FFDBB2 !important;
   font-weight: 700 !important;
+  font-size: 3.5rem !important; /* Custom font size for hero title */
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Feature title styling - only for feature card titles */
+.feature-title {
+  font-size: 1.2rem !important; /* Custom font size for feature titles */
+  font-weight: 600 !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Hero button styling - make corners more rounded */
+.hero .button {
+  border-radius: 20px !important; /* More rounded corners */
+}
+
+/* Sidebar font size - make sidebar text smaller */
+.theme-doc-sidebar-container .menu__link,
+.theme-doc-sidebar-container .menu__list-item-collapsible,
+.theme-doc-sidebar-container .menu__caret {
+  font-size: 0.9rem !important;
+}
+
+.theme-doc-sidebar-container .menu__link--active {
+  font-size: 0.9rem !important;
 }
 
 /* .hero__subtitle {

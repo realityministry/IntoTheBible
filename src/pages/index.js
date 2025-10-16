@@ -33,7 +33,7 @@ function MissionStatement() {
     <section className={featureStyles.mission}>
       <div className="container">
         <div className="text--center">
-          <Heading as="h2" className={featureStyles.missionTitle}>
+          <Heading as="h1" className={featureStyles.missionTitle}>
             Our Mission
           </Heading>
           <p className={featureStyles.missionText}>
@@ -58,7 +58,7 @@ function Verse() {
 
 const FeatureList = [
   {
-    title: 'Ministry & Outreach',
+    title: 'Christian Ministry',
     Svg: require('@site/static/img/icon-church.svg').default,
     description: (
       <>
@@ -67,7 +67,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Arts & Media',
+    title: 'Devotional Content',
     Svg: require('@site/static/img/icon-books.svg').default,
     description: (
       <>
@@ -121,7 +121,7 @@ function Feature({Svg, title, description}) {
           <Svg className={featureStyles.featureSvg} role="img" />
         </div>
         <div className="text--center padding-horiz--md">
-          <Heading as="h3">{title}</Heading>
+          <Heading as="h2" className="feature-title">{title}</Heading>
           <p>{description}</p>
         </div>
       </div>

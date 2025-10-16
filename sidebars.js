@@ -5,22 +5,39 @@ const sidebars = {
   // Evangelism Sidebar
   evangelismSidebar: [
     {
-      type: 'doc',
-      id: 'evangelism/street-evangelism',
-      label: 'Street Evangelism',
-    },
-    {
       type: 'category',
-      label: 'Past Events',
-      collapsible: true,
+      label: 'Street Outreach',
+      collapsed: false,
       items: [
         {
           type: 'doc',
-          id: 'evangelism/2025-10-04',
-          label: '2025-10-04',
+          id: 'ministry/evangelism/overview',
+          label: 'Overview',
+        },
+        {
+          type: 'doc',
+          id: 'ministry/evangelism/gospel-bookmark',
+          label: 'Gospel Bookmark',
+        },
+        {
+          type: 'doc',
+          id: 'ministry/evangelism/praise-worship',
+          label: 'Praise & Worship',
+        },
+        {
+          type: 'category',
+          label: 'Past Events',
+          collapsible: true,
+          items: [
+            {
+              type: 'doc',
+              id: 'ministry/evangelism/past-events/2025-10-04',
+              label: '2025-10-04',
+            },
+          ],
         },
       ],
-    },
+    }
   ],
 
   // Gospels Sidebar
