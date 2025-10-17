@@ -9,16 +9,16 @@ title: Lord, I life Your Name on High
 ## English Lyrics
 
 **[Verse]**  
-Lord, I lift Your name on high.  
-Lord, I love to sing Your praises.  
-I'm so glad You're in my life.  
-I'm so glad You came to save us.  
+Lord, I lift Your name on high  
+Lord, I love to sing Your praises  
+I'm so glad You're in my life  
+I'm so glad You came to save us  
 
 **[Chorus]**  
-You came from heaven to earth to show the way.  
-From the earth to the cross, my debt to pay.  
-From the cross to the grave, from the grave to the sky.  
-Lord, I lift Your name on high.  
+You came from heaven to earth to show the way  
+From the earth to the cross, my debt to pay  
+From the cross to the grave, from the grave to the sky  
+Lord, I lift Your name on high  
 
 ## Spanish Lyrics
 

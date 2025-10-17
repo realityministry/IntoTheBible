@@ -20,6 +20,8 @@ This love is my joy
 Jesus my shepherd. I’m His lamb. This love is my joy  
 This love is my joy  
 
+<div class="translated">(Translated by Jinho D. Choi)</div>
+
 ## Spanish Lyrics
 
 **[Verse 1]**  
@@ -33,6 +35,8 @@ El amor es mi gozo
 **[Verse 3]**  
 Señor mi pastor, Yo tu oveja, El amor es mi gozo (x3)  
 El amor es mi gozo  
+
+<div class="translated">(Translated by Jinho D. Choi)</div>
 
 ## Korean Lyrics
 

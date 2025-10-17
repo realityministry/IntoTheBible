@@ -4,10 +4,9 @@ title: 당신은 사랑받기 위해 태어난 사람 (You Are Created to Receiv
 
 # 당신은 사랑받기 위해 태어난 사람 (You Are Created to Receive the Greatest Love)
 
-이민섭
+<h3>이민섭</h3>
 
 ## English Lyrics
-(Traslated by Jinho D. Choi)
 
 **[Verse]**  
 You are created to receive the greatest love  
@@ -25,6 +24,8 @@ You are created to receive the greatest love
 You are receiving love, right here, right now  
 You are created to receive the greatest love  
 You are receiving love, right here, right now  
+
+<div class="translated">(Translated by Jinho D. Choi)</div>
 
 ## Spanish Lyrics
 
@@ -65,6 +66,18 @@ Es el amor de Dios  derramado en ti
 지금도 그 사랑 받고 있지요  
 
 ## Watch & Listen
+
+### Korean
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '95%'}}>
+  <iframe 
+    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+    src="https://www.youtube.com/embed/TDcGWrfWieI" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowFullScreen>
+  </iframe>
+</div>
 
 ### Spanish
 

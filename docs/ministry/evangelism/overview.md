@@ -29,7 +29,7 @@ Whether adults, youth, or children, we are all ministers of God's kingdom. Come 
 
 As leaders and examples in the outreach, adults and youth help facilitate worship, share the Gospel, and model Christ's love to people whom God has prepared.
 
-- Review and practice the [Praise & Worship](ministry/evangelism/praise-worship-songs.md) songs so you can praise with confidence
+- Review and practice the [Praise & Worship](ministry/evangelism/praise-worship.md) songs so you can praise with confidence
 - Familiarize yourself with the [Gospel Bookmark](ministry/evangelism/gospel-bookmark.md) and think about how you want to share the Gospel
 - Pray for spiritual preparation, God's guidance to people in need, and His wisdom in fellowship
 - Bring a loving heart and be ready to listen with compassion
@@ -38,7 +38,7 @@ As leaders and examples in the outreach, adults and youth help facilitate worshi
 
 Our children are an important part of our outreach. They join us in sharing God's love with other children.
 
-- Learn the children's [Praise & Worship](ministry/evangelism/praise-worship-songs.md) songs so you can sing (and dance) with other kids
+- Learn the children's [Praise & Worship](ministry/evangelism/praise-worship.md) songs so you can sing (and dance) with other kids
 - Learn about the [Gospel Bookmark](ministry/evangelism/gospel-bookmark.md) so you can tell others about Jesus
 - Think about how Jesus loves all children and how you can share that love
 - Pray for the children you will meet and ask God to help you be brave and kind

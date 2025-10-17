@@ -25,7 +25,6 @@ Que me ama, me ama, me ama con tierno amor
 Me ama, me ama, Su nombre es Jesús  
 
 ## Korean Lyrics
-(Translated by Jinho D. Choi)
 
 **[Verse]**  
 나를 사랑하는 친구 있어, 날 사랑, 날 사랑해  
@@ -34,6 +33,8 @@ Me ama, me ama, Su nombre es Jesús
 **[Chorus]**  
 나를 사랑, 나를 사랑해, 부드러운 사랑으로  
 나를 사랑, 나를 사랑해, 그 이름은 예수  
+
+<div class="translated">(Translated by Jinho D. Choi)</div>
 
 ## Watch & Listen
 
