@@ -1,7 +1,6 @@
 ---
 title: Our Team
 parent: About
-permalink: /about/team
 description: Meet the REALITY Ministry team
 # hide_table_of_contents: true
 ---

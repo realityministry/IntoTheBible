@@ -140,6 +140,10 @@ const config = {
             position: 'left',
             items: [
               {
+                to: '/about/vision',
+                label: 'Our Vision',
+              },
+              {
                 to: '/about/team',
                 label: 'Our Team',
               },
@@ -154,41 +158,33 @@ const config = {
             label: 'Ministry',
             position: 'left',
             items: [
-            {
-              type: 'docSidebar',
-              sidebarId: 'evangelismSidebar',
-              label: 'Street Outreach',
-            },
-            {
-              to: '/ministry/mission-trips',
-              label: 'Mission Trips',
-            },
-          ],
+              {
+                type: 'docSidebar',
+                sidebarId: 'evangelismSidebar',
+                label: 'Street Outreach',
+              },
+              {
+                to: '/ministry/mission-trips',
+                label: 'Mission Trips',
+              },
+            ],
           },
           {
-              href: 'http://cotlministry.com',
-              label: 'Devotionals',
-              position: 'left',
-            },
-          // {
-          //   type: 'dropdown',
-          //   label: 'Arts & Media',
-          //   position: 'left',
-          //   items: [
-          //     {
-          //       to: '/arts-media/books',
-          //       label: 'Books',
-          //     },
-          //     {
-          //       to: '/arts-media/musicals',
-          //       label: 'Musicals',
-          //     },
-          //     {
-          //       to: '/arts-media/songs',
-          //       label: 'Songs',
-          //     },
-          //   ],
-          // },
+            type: 'dropdown',
+            label: 'Devotionals',
+            position: 'left',
+            items: [
+              {
+                href: 'https://cotlministry.com',
+                label: 'Children of the Light',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'gospelsSidebar',
+                label: 'Into the Gospels (Korean)',
+              },
+            ],
+          },
           {
             type: 'dropdown',
             label: 'Technology', 
@@ -201,21 +197,22 @@ const config = {
             ],
           },
           {
-            to: '/programs', 
-            label: 'Programs', 
+            type: 'dropdown',
+            label: 'Programs',
             position: 'left',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'lightprogramSidebar',
+                label: 'LIGHT Program',
+              },
+            ],
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'gospelsSidebar',
-          //   position: 'left',
-          //   label: '복음서',
-          // },
-          // {
-          //   to: '/blog', 
-          //   label: 'Blog', 
-          //   position: 'left'
-          // },
+          {
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left'
+          },
           // {
           //   type: 'localeDropdown',
           //   position: 'right',
@@ -230,51 +227,6 @@ const config = {
 
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: '성경 공부',
-        //     items: [
-        //       {
-        //         label: '시작하기',
-        //         to: '/docs/intro',
-        //       },
-        //       {
-        //         label: '복음서',
-        //         to: '/docs/gospels/intro',
-        //       },
-        //       {
-        //         label: '구약',
-        //         to: '/docs/old-testament/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: '커뮤니티',
-        //     items: [
-        //       {
-        //         label: '토론',
-        //         href: 'https://github.com/your-username/bible-study/discussions',
-        //       },
-        //       {
-        //         label: '이슈 신고',
-        //         href: 'https://github.com/your-username/bible-study/issues',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: '더보기',
-        //     items: [
-        //       {
-        //         label: '블로그',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/your-username/bible-study',
-        //       },
-        //     ],
-        //   },
-        // ],
         copyright: `Copyright © ${new Date().getFullYear()} REALITY Ministry Inc. All rights reserved.`,
       },
 

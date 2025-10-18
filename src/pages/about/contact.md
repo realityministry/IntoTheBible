@@ -1,7 +1,6 @@
 ---
 title: Contact Us
 parent: About
-permalink: /about/contact
 description: Get in touch with REALITY Ministry
 ---
 

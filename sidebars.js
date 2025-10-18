@@ -2,7 +2,6 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  // Evangelism Sidebar
   evangelismSidebar: [
     {
       type: 'category',
@@ -28,7 +27,31 @@ const sidebars = {
     }
   ],
 
-  // Gospels Sidebar
+  lightprogramSidebar: [
+    {
+      type: 'category',
+      label: 'LIGHT Program',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'programs/light-program/overview',
+          label: 'Overview',
+        },
+        // {
+        //   type: 'doc',
+        //   id: 'programs/light-program/gospel-bookmark',
+        //   label: 'Gospel Bookmark',
+        // },
+        // {
+        //   type: 'doc',
+        //   id: 'programs/light-program/praise-worship',
+        //   label: 'Praise & Worship',
+        // },
+      ],
+    }
+  ],
+
   gospelsSidebar: [
     {
       type: 'doc',
