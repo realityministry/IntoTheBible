@@ -179,6 +179,10 @@ const config = {
                 label: 'Children of the Light',
               },
               {
+                href: 'https://soundcloud.com/children-of-the-light/sets/praise-worship',
+                label: 'Praise & Worship',
+              },
+              {
                 type: 'docSidebar',
                 sidebarId: 'gospelsSidebar',
                 label: 'Into the Gospels (Korean)',
@@ -213,15 +217,6 @@ const config = {
             label: 'Blog', 
             position: 'left'
           },
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'right',
-          // },
-          // {
-          //   href: 'https://github.com/realityministry/realityministry.github.io',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
 

@@ -1,5 +1,5 @@
 ---
-title: Here I am to Worship
+title: Goodness of God
 ---
 
 # Goodness of God
