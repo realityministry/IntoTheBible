@@ -51,3 +51,17 @@ El amor es mi gozo
 **[Verse 3]**  
 주 나의 목자, 나 주의 양, 그 사랑은 내 기쁨  (x3)  
 그 사랑은 내 기쁨  
+
+## Watch & Listen
+
+### English
+
+<div style={{position: 'relative', paddingBottom: '166px', height: 0, overflow: 'hidden', maxWidth: '95%'}}>
+  <iframe 
+    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+    scrolling="no" 
+    frameBorder="no" 
+    allow="autoplay" 
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2210621729&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+  </iframe>
+</div>

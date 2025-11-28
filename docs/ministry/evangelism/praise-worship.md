@@ -30,6 +30,7 @@ These songs lead us into deeper worship and help center our hearts on God before
 
 - [10,000 Reasons (Bless the Lord)](/praise-worship/ten-thousand-reasons) - Matt Redman
 - [Amazing Grace (My Chains Are Gone)](/praise-worship/amazing-grace) - Chris Tomlin
+- [Christmas Hymns](/praise-worship/christmas-hymns)
 - [Here I Am to Worship](/praise-worship/here-i-am-to-worship) - Tim Hughes
 - [God So Loved the World](/praise-worship/god-so-loved-the-world) - Scott Brenner
 - [Goodness of God](/praise-worship/gooness-of-god) - Jenn Johnson et al.

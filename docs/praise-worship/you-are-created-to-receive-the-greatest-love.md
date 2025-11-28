@@ -71,14 +71,28 @@ Es el amor de Dios  derramado en ti
 
 Pop Version:
 
-<div style={{maxWidth: '95%', marginBottom: '10px'}}>
-<iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2195414807&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style={{fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: 100}}><a href="https://soundcloud.com/children-of-the-light" title="Children of the Light" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>Children of the Light</a> · <a href="https://soundcloud.com/children-of-the-light/you-are-created-to-receive-the-greatest-love-pop-version" title="You are Created to Receive the Greatest Love (Pop Version)" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>You are Created to Receive the Greatest Love (Pop Version)</a></div>
-</div>
+<div style={{position: 'relative', paddingBottom: '166px', height: 0, overflow: 'hidden', maxWidth: '95%'}}>
+  <iframe 
+    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+    scrolling="no" 
+    frameBorder="no" 
+    allow="autoplay" 
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2195414807&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+  </iframe>
+</div>  
 
 Kids Version:
-<div style={{maxWidth: '95%', marginBottom: '10px'}}>
-<iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2195436403&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style={{fontSize: '10px', color: '#cccccc', lineBreak: 'anywhere', wordBreak: 'normal', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis', fontFamily: 'Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif', fontWeight: 100}}><a href="https://soundcloud.com/children-of-the-light" title="Children of the Light" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>Children of the Light</a> · <a href="https://soundcloud.com/children-of-the-light/you-are-created-to-receive-the-greatest-love-kids-version" title="You Are Created to Receive the Greatest Love (Kids Version)" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>You Are Created to Receive the Greatest Love (Kids Version)</a></div>
+
+<div style={{position: 'relative', paddingBottom: '166px', height: 0, overflow: 'hidden', maxWidth: '95%'}}>
+  <iframe 
+    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+    scrolling="no" 
+    frameBorder="no" 
+    allow="autoplay" 
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2195436403&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+  </iframe>
 </div>
+
 
 ### Spanish
 
